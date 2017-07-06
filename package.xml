@@ -41,9 +41,7 @@
   <!--   <test_depend>gtest</test_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>ark_bridge</build_depend>
-  <build_depend>ark_robot_configurations</build_depend>
   <run_depend>ark_bridge</run_depend>
-  <run_depend>ark_robot_configurations</run_depend>
 
 
   <!-- The export tag contains other, unspecified, tags -->

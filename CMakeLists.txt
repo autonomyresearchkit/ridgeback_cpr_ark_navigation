@@ -9,7 +9,6 @@ project(ridgeback_cpr_ark_navigation)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   ark_bridge
-  ark_robot_configurations
 )
 
 ## System dependencies are found with CMake's conventions
