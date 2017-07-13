@@ -13,7 +13,7 @@ ark_config:
     lidar_spacing: 0.8254
     laser_fov: 270.0
     vehicle_gear: 1
-    curve_type: 1 
+    curve_type: 1
     goal_threshold: 0.15
     orientation_corr_threshold: 0.05
     mpc_horizon: 3.0
@@ -24,3 +24,20 @@ ark_config:
     lookahead_factor: 1.45
     curvature_slowdown: 0.6
 
+    max_fwd_linear_speed:
+    max_rev_linear_speed:
+    min_linear_speed:
+    max_linear_acceleration:
+    max_linear_deceleration:
+    max_ang_speed:
+    max_ang_accel:
+    max_lateral_accel:
+    vehicle_length:
+    vehicle_width:
+    stopping_distance_1M:
+    lidar_spacing:
+    laser_fov:
+    goal_tolerance_xy:
+    goal_tolerance_yaw:
+    camera_3d_memory:
+    drive_direction:
