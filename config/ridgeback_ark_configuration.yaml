@@ -1,43 +1,18 @@
 ark_config:
-    max_fwd_velocity: 1.0
-    max_rev_velocity: 1.0
-    min_fwd_velocity: 0.05
-    max_accel: 0.3
-    max_decel: -0.3
-    max_ang_velocity: 1.0
+    max_fwd_linear_speed: 1.0
+    max_rev_linear_speed: 1.0
+    min_linear_speed: 0.05
+    max_linear_acceleration: 0.3
+    max_linear_deceleration: -0.3
+    max_ang_speed: 1.0
     max_ang_accel: 0.3
-    max_lateral_accel: 0.3
+    max_lateral_accel: 2.0
     vehicle_length: 0.960
     vehicle_width: 0.800
-    stopping_distance_1M: 0.40
+    stopping_distance_1M: 0.4
     lidar_spacing: 0.8254
     laser_fov: 270.0
-    vehicle_gear: 1
-    curve_type: 1
-    goal_threshold: 0.15
-    orientation_corr_threshold: 0.05
-    mpc_horizon: 3.0
-    min_lookahead: 2.0
-    max_lookahead: 3.0
-    horizon_percent_change: 0.06
-    lookahead_smoother: 0.4
-    lookahead_factor: 1.45
-    curvature_slowdown: 0.6
-
-    max_fwd_linear_speed:
-    max_rev_linear_speed:
-    min_linear_speed:
-    max_linear_acceleration:
-    max_linear_deceleration:
-    max_ang_speed:
-    max_ang_accel:
-    max_lateral_accel:
-    vehicle_length:
-    vehicle_width:
-    stopping_distance_1M:
-    lidar_spacing:
-    laser_fov:
-    goal_tolerance_xy:
-    goal_tolerance_yaw:
-    camera_3d_memory:
-    drive_direction:
+    goal_tolerance_xy: 0.1
+    goal_tolerance_yaw: 0.1
+    camera_3d_memory: 0.01
+    drive_direction: 1
