@@ -24,7 +24,7 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCL
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <launch>
-  <arg name="platform_control_odom" default="/husky_velocity_controller/odom" />
+  <arg name="platform_control_odom" default="/ridgeback_velocity_controller/odom" />
   <arg name="platform_odom" default="/odometry/filtered" />
   <arg name="front_laser" default="/front/scan" />
   <arg name="rear_laser" default="/rear/scan" />
