@@ -1,0 +1,12 @@
+ridgeback_velocity_controller:
+  linear:
+    x:
+      has_acceleration_limits: true
+      max_acceleration       : 1.0   # m/s^2
+    y:
+      has_acceleration_limits: true
+      max_acceleration       : 1.0   # m/s^2
+  angular:
+    z:
+      has_acceleration_limits: true
+      max_acceleration       : 1.0   # rad/s^2
